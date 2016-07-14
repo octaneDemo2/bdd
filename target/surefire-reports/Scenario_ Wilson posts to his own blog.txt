@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: Scenario: Wilson posts to his own blog
--------------------------------------------------------------------------------
-Tests run: 17, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 0.996 sec - in Scenario: Wilson posts to his own blog

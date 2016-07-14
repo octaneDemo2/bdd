@@ -7,8 +7,9 @@ import cucumber.api.CucumberOptions;
 import org.junit.runner.RunWith;
 import cucumber.api.junit.Cucumber;
 
-@RunWith(Cucumber.class)
-@CucumberOptions(plugin = {"junit:junitResult.xml", "html:output.html", "json", "feature.manualRunner.support.GherkinNGAFormatter"},
+
+@RunWith(OctaneCucumber.class)
+@CucumberOptions(plugin = {"junit:junitResult.xml", "html:output.html"},
                  features = "src/test/resources/feature/manualRunner")
 public class ManualRunnerTest {
 
