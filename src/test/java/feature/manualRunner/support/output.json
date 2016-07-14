@@ -1,0 +1,852 @@
+"C:\Program Files\Java\jdk1.8.0_73\bin\java" -ea -Didea.launcher.port=7536 "-Didea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 15.0.3\bin" -Didea.junit.sm_runner -Dfile.encoding=UTF-8 -classpath "C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 15.0.3\lib\idea_rt.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 15.0.3\plugins\junit\lib\junit-rt.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\rt.jar;C:\Users\alm_alm_auto\IdeaProjects\Gherkin\target\test-classes;C:\Users\alm_alm_auto\IdeaProjects\Gherkin\target\classes;C:\Users\alm_alm_auto\.m2\repository\info\cukes\cucumber-java\1.2.4\cucumber-java-1.2.4.jar;C:\Users\alm_alm_auto\.m2\repository\info\cukes\cucumber-core\1.2.4\cucumber-core-1.2.4.jar;C:\Users\alm_alm_auto\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\alm_alm_auto\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\alm_alm_auto\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\alm_alm_auto\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\alm_alm_auto\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\alm_alm_auto\.m2\repository\info\cukes\cucumber-junit\1.2.4\cucumber-junit-1.2.4.jar" com.intellij.rt.execution.application.AppMain com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 manualRunner.ManualRunnerTest
+[
+{
+"line": 2,
+"elements": [
+{
+"line": 8,
+"name": "",
+"description": "",
+"type": "background",
+"keyword": "Background",
+"steps": [
+{
+"result": {
+"duration": 174605432,
+"status": "passed"
+},
+"line": 9,
+"name": "user is logged",
+"match": {
+"location": "MyStepdefs3.userIsLoggedIn()"
+},
+"keyword": "Given "
+},
+{
+"result": {
+"duration": 3625391,
+"status": "passed"
+},
+"line": 10,
+"name": "user is in \"Application Module\" Module in \"Tests\" tab",
+"match": {
+"arguments": [
+{
+"val": "Application Module",
+"offset": 12
+},
+{
+"val": "Tests",
+"offset": 43
+}
+],
+"location": "MyStepdefs3.user_is_in_Module_in_tab(String,String)"
+},
+"keyword": "Given "
+},
+{
+"result": {
+"duration": 100222,
+"status": "passed"
+},
+"comments": [
+{
+"line": 12,
+"value": "#test have 4 steps + 1 validation steps"
+}
+],
+"line": 13,
+"name": "there is test of type \"Manual\" with \"no errors\" called \"my manual test1\"",
+"match": {
+"arguments": [
+{
+"val": "Manual",
+"offset": 23
+},
+{
+"val": "no errors",
+"offset": 37
+},
+{
+"val": "my manual test1",
+"offset": 56
+}
+],
+"location": "MyStepdefs3.there_is_test_of_type_with_called(String,String,String)"
+},
+"keyword": "Given "
+},
+{
+"result": {
+"duration": 140241,
+"status": "passed"
+},
+"comments": [
+{
+"line": 15,
+"value": "#test have 3 steps + 1 validation steps + 1 link to \"my manual test1\""
+}
+],
+"line": 16,
+"name": "there is test of type \"Manual\" with \"no errors\" called \"my manual test2\"",
+"match": {
+"arguments": [
+{
+"val": "Manual",
+"offset": 23
+},
+{
+"val": "no errors",
+"offset": 37
+},
+{
+"val": "my manual test2",
+"offset": 56
+}
+],
+"location": "MyStepdefs3.there_is_test_of_type_with_called(String,String,String)"
+},
+"keyword": "Given "
+},
+{
+"result": {
+"duration": 101409,
+"status": "passed"
+},
+"comments": [
+{
+"line": 18,
+"value": "#test have 4 steps + 1 link to itself"
+}
+],
+"line": 19,
+"name": "there is test of type \"Manual\" with \"link to self\" called \"my selfy test\"",
+"match": {
+"arguments": [
+{
+"val": "Manual",
+"offset": 23
+},
+{
+"val": "link to self",
+"offset": 37
+},
+{
+"val": "my selfy test",
+"offset": 59
+}
+],
+"location": "MyStepdefs3.there_is_test_of_type_with_called(String,String,String)"
+},
+"keyword": "Given "
+},
+{
+"result": {
+"duration": 118800,
+"status": "passed"
+},
+"comments": [
+{
+"line": 21,
+"value": "#test have 4 steps + 1 link to test id 999999"
+}
+],
+"line": 22,
+"name": "there is test of type \"Manual\" with \"broken link\" called \"my broken link test\"",
+"match": {
+"arguments": [
+{
+"val": "Manual",
+"offset": 23
+},
+{
+"val": "broken link",
+"offset": 37
+},
+{
+"val": "my broken link test",
+"offset": 58
+}
+],
+"location": "MyStepdefs3.there_is_test_of_type_with_called(String,String,String)"
+},
+"keyword": "Given "
+},
+{
+"result": {
+"duration": 101130,
+"status": "passed"
+},
+"comments": [
+{
+"line": 24,
+"value": "#test have 3 scenarios + scenario outline with 2 data lines"
+}
+],
+"line": 25,
+"name": "there is test of type \"Gherkin\" with \"no errors\" called \"my Gherkin test\"",
+"match": {
+"arguments": [
+{
+"val": "Gherkin",
+"offset": 23
+},
+{
+"val": "no errors",
+"offset": 38
+},
+{
+"val": "my Gherkin test",
+"offset": 57
+}
+],
+"location": "MyStepdefs3.there_is_test_of_type_with_called(String,String,String)"
+},
+"keyword": "Given "
+},
+{
+"result": {
+"duration": 169924,
+"status": "passed"
+},
+"comments": [
+{
+"line": 27,
+"value": "#test have 3 scenarios + scenario outline with no examples"
+}
+],
+"line": 28,
+"name": "there is test of type \"Gherkin\" with \"broken scenario outline\" called \"my Gherkin broke scenario outline\"",
+"match": {
+"arguments": [
+{
+"val": "Gherkin",
+"offset": 23
+},
+{
+"val": "broken scenario outline",
+"offset": 38
+},
+{
+"val": "my Gherkin broke scenario outline",
+"offset": 71
+}
+],
+"location": "MyStepdefs3.there_is_test_of_type_with_called(String,String,String)"
+},
+"keyword": "Given "
+},
+{
+"result": {
+"duration": 239695,
+"status": "passed"
+},
+"line": 29,
+"name": "there is test of type \"Gherkin\" with \"no errors\" called \"\u003cstring\u003e\"",
+"match": {
+"arguments": [
+{
+"val": "Gherkin",
+"offset": 23
+},
+{
+"val": "no errors",
+"offset": 38
+},
+{
+"val": "\u003cstring\u003e",
+"offset": 57
+}
+],
+"location": "MyStepdefs3.there_is_test_of_type_with_called(String,String,String)"
+},
+"keyword": "Given "
+}
+]
+},
+{
+"line": 31,
+"name": "Run a single Manual test",
+"description": "",
+"id": "manualrunnerspec;run-a-single-manual-test",
+"type": "scenario",
+"keyword": "Scenario",
+"steps": [
+{
+"result": {
+"duration": 103505,
+"status": "passed"
+},
+"line": 32,
+"name": "user select in \"Fat Lines\" the entity \"my manual test1\"",
+"match": {
+"arguments": [
+{
+"val": "Fat Lines",
+"offset": 16
+},
+{
+"val": "my manual test1",
+"offset": 39
+}
+],
+"location": "MyStepdefs3.user_select_in_the_entity(String,String)"
+},
+"keyword": "When "
+},
+{
+"result": {
+"duration": 300876,
+"status": "passed"
+},
+"line": 33,
+"name": "user press \"run test\"",
+"match": {
+"arguments": [
+{
+"val": "run test",
+"offset": 12
+}
+],
+"location": "MyStepdefs3.user_press(String)"
+},
+"keyword": "When "
+},
+{
+"result": {
+"duration": 73613,
+"status": "passed"
+},
+"line": 34,
+"name": "user press \"let\u0027s run\" in the \"run\" dialog",
+"match": {
+"arguments": [
+{
+"val": "let\u0027s run",
+"offset": 12
+},
+{
+"val": "run",
+"offset": 31
+}
+],
+"location": "MyStepdefs3.user_press_in_the_dialog(String,String)"
+},
+"keyword": "When "
+},
+{
+"result": {
+"duration": 19067,
+"status": "passed"
+},
+"line": 35,
+"name": "manual runner opens",
+"match": {
+"location": "MyStepdefs3.manual_runner_opens()"
+},
+"keyword": "Then "
+},
+{
+"result": {
+"duration": 51054,
+"status": "passed"
+},
+"line": 36,
+"name": "manual runner displays \"my manual test1\" in header",
+"match": {
+"arguments": [
+{
+"val": "my manual test1",
+"offset": 24
+}
+],
+"location": "MyStepdefs3.manual_runner_displays_in_header(String)"
+},
+"keyword": "Then "
+},
+{
+"result": {
+"duration": 1474000,
+"status": "passed"
+},
+"line": 37,
+"name": "maunal runner displays 4 setup steps",
+"match": {
+"arguments": [
+{
+"val": "4",
+"offset": 23
+}
+],
+"location": "MyStepdefs3.maunal_runner_displays_setup_steps(int)"
+},
+"keyword": "Then "
+},
+{
+"result": {
+"duration": 50006,
+"status": "passed"
+},
+"line": 38,
+"name": "manual runner displays no test selection bar",
+"match": {
+"location": "MyStepdefs3.manual_runner_displays_no_test_selection_bar()"
+},
+"keyword": "Then "
+},
+{
+"result": {
+"duration": 20953,
+"status": "passed"
+},
+"line": 39,
+"name": "manual runner displays no way to open test list",
+"match": {
+"location": "MyStepdefs3.manual_runner_displays_no_way_to_open_test_list()"
+},
+"keyword": "Then "
+},
+{
+"result": {
+"duration": 136749,
+"status": "passed"
+},
+"line": 40,
+"name": "maunal runner displays 1 validation steps",
+"match": {
+"arguments": [
+{
+"val": "1",
+"offset": 23
+}
+],
+"location": "MyStepdefs3.maunal_runner_displays_validation_steps(int)"
+},
+"keyword": "Then "
+}
+]
+},
+{
+"line": 8,
+"name": "",
+"description": "",
+"type": "background",
+"keyword": "Background",
+"steps": [
+{
+"result": {
+"duration": 49029,
+"status": "passed"
+},
+"line": 9,
+"name": "user is logged",
+"match": {
+"location": "MyStepdefs3.userIsLoggedIn()"
+},
+"keyword": "Given "
+},
+{
+"result": {
+"duration": 99803,
+"status": "passed"
+},
+"line": 10,
+"name": "user is in \"Application Module\" Module in \"Tests\" tab",
+"match": {
+"arguments": [
+{
+"val": "Application Module",
+"offset": 12
+},
+{
+"val": "Tests",
+"offset": 43
+}
+],
+"location": "MyStepdefs3.user_is_in_Module_in_tab(String,String)"
+},
+"keyword": "Given "
+},
+{
+"result": {
+"duration": 112514,
+"status": "passed"
+},
+"comments": [
+{
+"line": 12,
+"value": "#test have 4 steps + 1 validation steps"
+}
+],
+"line": 13,
+"name": "there is test of type \"Manual\" with \"no errors\" called \"my manual test1\"",
+"match": {
+"arguments": [
+{
+"val": "Manual",
+"offset": 23
+},
+{
+"val": "no errors",
+"offset": 37
+},
+{
+"val": "my manual test1",
+"offset": 56
+}
+],
+"location": "MyStepdefs3.there_is_test_of_type_with_called(String,String,String)"
+},
+"keyword": "Given "
+},
+{
+"result": {
+"duration": 102178,
+"status": "passed"
+},
+"comments": [
+{
+"line": 15,
+"value": "#test have 3 steps + 1 validation steps + 1 link to \"my manual test1\""
+}
+],
+"line": 16,
+"name": "there is test of type \"Manual\" with \"no errors\" called \"my manual test2\"",
+"match": {
+"arguments": [
+{
+"val": "Manual",
+"offset": 23
+},
+{
+"val": "no errors",
+"offset": 37
+},
+{
+"val": "my manual test2",
+"offset": 56
+}
+],
+"location": "MyStepdefs3.there_is_test_of_type_with_called(String,String,String)"
+},
+"keyword": "Given "
+},
+{
+"result": {
+"duration": 88349,
+"status": "passed"
+},
+"comments": [
+{
+"line": 18,
+"value": "#test have 4 steps + 1 link to itself"
+}
+],
+"line": 19,
+"name": "there is test of type \"Manual\" with \"link to self\" called \"my selfy test\"",
+"match": {
+"arguments": [
+{
+"val": "Manual",
+"offset": 23
+},
+{
+"val": "link to self",
+"offset": 37
+},
+{
+"val": "my selfy test",
+"offset": 59
+}
+],
+"location": "MyStepdefs3.there_is_test_of_type_with_called(String,String,String)"
+},
+"keyword": "Given "
+},
+{
+"result": {
+"duration": 110559,
+"status": "passed"
+},
+"comments": [
+{
+"line": 21,
+"value": "#test have 4 steps + 1 link to test id 999999"
+}
+],
+"line": 22,
+"name": "there is test of type \"Manual\" with \"broken link\" called \"my broken link test\"",
+"match": {
+"arguments": [
+{
+"val": "Manual",
+"offset": 23
+},
+{
+"val": "broken link",
+"offset": 37
+},
+{
+"val": "my broken link test",
+"offset": 58
+}
+],
+"location": "MyStepdefs3.there_is_test_of_type_with_called(String,String,String)"
+},
+"keyword": "Given "
+},
+{
+"result": {
+"duration": 95683,
+"status": "passed"
+},
+"comments": [
+{
+"line": 24,
+"value": "#test have 3 scenarios + scenario outline with 2 data lines"
+}
+],
+"line": 25,
+"name": "there is test of type \"Gherkin\" with \"no errors\" called \"my Gherkin test\"",
+"match": {
+"arguments": [
+{
+"val": "Gherkin",
+"offset": 23
+},
+{
+"val": "no errors",
+"offset": 38
+},
+{
+"val": "my Gherkin test",
+"offset": 57
+}
+],
+"location": "MyStepdefs3.there_is_test_of_type_with_called(String,String,String)"
+},
+"keyword": "Given "
+},
+{
+"result": {
+"duration": 72425,
+"status": "passed"
+},
+"comments": [
+{
+"line": 27,
+"value": "#test have 3 scenarios + scenario outline with no examples"
+}
+],
+"line": 28,
+"name": "there is test of type \"Gherkin\" with \"broken scenario outline\" called \"my Gherkin broke scenario outline\"",
+"match": {
+"arguments": [
+{
+"val": "Gherkin",
+"offset": 23
+},
+{
+"val": "broken scenario outline",
+"offset": 38
+},
+{
+"val": "my Gherkin broke scenario outline",
+"offset": 71
+}
+],
+"location": "MyStepdefs3.there_is_test_of_type_with_called(String,String,String)"
+},
+"keyword": "Given "
+},
+{
+"result": {
+"duration": 77174,
+"status": "passed"
+},
+"line": 29,
+"name": "there is test of type \"Gherkin\" with \"no errors\" called \"\u003cstring\u003e\"",
+"match": {
+"arguments": [
+{
+"val": "Gherkin",
+"offset": 23
+},
+{
+"val": "no errors",
+"offset": 38
+},
+{
+"val": "\u003cstring\u003e",
+"offset": 57
+}
+],
+"location": "MyStepdefs3.there_is_test_of_type_with_called(String,String,String)"
+},
+"keyword": "Given "
+}
+]
+},
+{
+"line": 43,
+"name": "Run a single Gherkin test",
+"description": "",
+"id": "manualrunnerspec;run-a-single-gherkin-test",
+"type": "scenario",
+"keyword": "Scenario",
+"steps": [
+{
+"result": {
+"duration": 87231,
+"status": "passed"
+},
+"line": 44,
+"name": "user select in \"Fat Lines\" the entity \"my Gherkin test\"",
+"match": {
+"arguments": [
+{
+"val": "Fat Lines",
+"offset": 16
+},
+{
+"val": "my Gherkin test",
+"offset": 39
+}
+],
+"location": "MyStepdefs3.user_select_in_the_entity(String,String)"
+},
+"keyword": "When "
+},
+{
+"result": {
+"duration": 47352,
+"status": "passed"
+},
+"line": 45,
+"name": "user press \"run test\"",
+"match": {
+"arguments": [
+{
+"val": "run test",
+"offset": 12
+}
+],
+"location": "MyStepdefs3.user_press(String)"
+},
+"keyword": "When "
+},
+{
+"result": {
+"duration": 59644,
+"status": "passed"
+},
+"line": 46,
+"name": "user press \"let\u0027s run\" in the \"run\" dialog",
+"match": {
+"arguments": [
+{
+"val": "let\u0027s run",
+"offset": 12
+},
+{
+"val": "run",
+"offset": 31
+}
+],
+"location": "MyStepdefs3.user_press_in_the_dialog(String,String)"
+},
+"keyword": "When "
+},
+{
+"result": {
+"duration": 17251,
+"status": "passed"
+},
+"line": 47,
+"name": "manual runner opens",
+"match": {
+"location": "MyStepdefs3.manual_runner_opens()"
+},
+"keyword": "Then "
+},
+{
+"result": {
+"duration": 44140,
+"status": "passed"
+},
+"line": 48,
+"name": "manual runner displays \"my Gherkin test\" in header",
+"match": {
+"arguments": [
+{
+"val": "my Gherkin test",
+"offset": 24
+}
+],
+"location": "MyStepdefs3.manual_runner_displays_in_header(String)"
+},
+"keyword": "Then "
+},
+{
+"result": {
+"duration": 17810,
+"status": "passed"
+},
+"line": 49,
+"name": "manual runner displays no test selection bar",
+"match": {
+"location": "MyStepdefs3.manual_runner_displays_no_test_selection_bar()"
+},
+"keyword": "Then "
+},
+{
+"result": {
+"duration": 40508,
+"status": "passed"
+},
+"line": 50,
+"name": "manual runner displays no way to open test list",
+"match": {
+"location": "MyStepdefs3.manual_runner_displays_no_way_to_open_test_list()"
+},
+"keyword": "Then "
+},
+{
+"result": {
+"duration": 96590,
+"status": "passed"
+},
+"line": 51,
+"name": "maunal runner displays 5 scenarios",
+"match": {
+"arguments": [
+{
+"val": "5",
+"offset": 23
+}
+],
+"location": "MyStepdefs3.maunal_runner_displays_scenarios(int)"
+},
+"keyword": "Then "
+}
+]
+}
+],
+"name": "ManualRunnerSpec",
+"description": "In order to execute tests\r\nAs a QA engineer\r\nI want to execute a gherkin test in Manual Runner",
+"id": "manualrunnerspec",
+"keyword": "Feature",
+"uri": "manualRunner/manualRunner.feature",
+"tags": [
+{
+"line": 1,
+"name": "@NGA_ID1202"
+}
+]
+}
+]
+2 Scenarios (2 passed)
+35 Steps (35 passed)
+0m0.183s
+
+Process finished with exit code 0

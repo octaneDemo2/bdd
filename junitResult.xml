@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="4" time="0.437849">
+<testcase classname="spell check an email before sending it" name="before sending an email - spell check should be triggered automatically" time="0.432451">
+<system-out><![CDATA[Given user is in send email dialog..........................................passed
+When user click the send button.............................................passed
+Then spell check should be triggered and prompt user if errors were found...passed
+]]></system-out>
+</testcase>
+<testcase classname="test 1" name="scenario 1" time="0.000081">
+<system-out><![CDATA[Given user send an email....................................................passed
+When he clicks send.........................................................passed
+Then notification appears...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="warn user if he forget an attachment" name="user wrote attached but didnt attach anything" time="0.003381">
+<system-out><![CDATA[Given user is in mail dialog................................................passed
+When user clicks send.......................................................passed
+Then if word "attach" is in mail, and nothing attached, warn user...........passed
+]]></system-out>
+</testcase>
+<testcase classname="warn user if he forget an attachment" name="Wilson posts to his own blog" time="0.001936">
+<skipped><![CDATA[Given I am logged in as Wilson..............................................pending
+When I try to post to "Expensive Therapy"...................................skipped
+Then I should see "Your article was published.".............................skipped
+]]></skipped>
+</testcase>
+</testsuite>
