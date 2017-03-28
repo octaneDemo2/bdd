@@ -63,4 +63,10 @@ public class MyStepdefs {
         // Write code here that turns the phrase above into concrete actions
         //Assert.assertEquals("good result", "bad result");
     }
+
+    @And("^something new to this part was added$")
+    public void somethingNewToThisPartWasAdded() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new Exception("The test has gone CAPUT");
+    }
 }
