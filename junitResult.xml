@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.30402">
-<testcase classname="spell check an email before sending it" name="before sending an email - spell check should be triggered automatically" time="0.30402">
-<system-out><![CDATA[Given user is in send email dialog..........................................passed
-When user click the send button.............................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.143798">
+<testcase classname="spell check an email before sending it" name="before sending an email - spell check should be triggered automatically" time="0.143798">
+<system-out><![CDATA[Given user click the send button............................................passed
+And something new this part added...........................................passed
+When user is in send email dialog...........................................passed
 Then spell check should be triggered and prompt user if errors were found...passed
 ]]></system-out>
 </testcase>

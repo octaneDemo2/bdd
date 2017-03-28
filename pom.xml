@@ -37,7 +37,7 @@
     </build>
 
     <dependencies>
-        <dependency>
+         <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-java</artifactId>
             <scope>test</scope>
@@ -65,6 +65,11 @@
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>2.53.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.hpe.alm.octane</groupId>
+            <artifactId>octane-cucumber-jvm</artifactId>
+            <version>12.53.19</version>
         </dependency>
     </dependencies>
 </project>
