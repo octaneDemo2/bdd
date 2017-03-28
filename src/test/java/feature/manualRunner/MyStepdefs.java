@@ -58,9 +58,6 @@ public class MyStepdefs {
 
     }
 
-
-
-
     @Then("^check it again")
     public void checkIt() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
