@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features version="1"><feature name="spell check an email before sending it" path="src\test\resources\feature\manualRunner\spell check an email before sending it.feature" started="1486312363918" tag="@TID1278REV0.1.0"><file><![CDATA[#Auto generated Octane revision tag
+@TID1278REV0.1.0
+
+Feature: spell check an email before sending it
+
+	Scenario: before sending an email - spell check should be triggered automatically
+		Given user click the send button
+		And something new this part added
+		When user is in send email dialog
+		Then spell check should be triggered and prompt user if errors were found
+
+]]></file><scenarios><scenario name="before sending an email - spell check should be triggered automatically"><steps><step duration="143730140" name="Given user click the send button" status="passed"/><step duration="23886" name="And something new this part added" status="passed"/><step duration="20602" name="When user is in send email dialog" status="passed"/><step duration="23748" name="Then spell check should be triggered and prompt user if errors were found" status="passed"/></steps></scenario></scenarios></feature></features>
