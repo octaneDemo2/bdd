@@ -67,6 +67,6 @@ public class MyStepdefs {
     @And("^something new to this part was added$")
     public void somethingNewToThisPartWasAdded() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        throw new Exception("The test has gone CAPUT");
+        throw new Error("The test has gone CAPOOT");
     }
 }
