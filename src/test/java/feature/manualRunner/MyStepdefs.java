@@ -67,6 +67,36 @@ public class MyStepdefs {
     @And("^something new to this part was added$")
     public void somethingNewToThisPartWasAdded() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        throw new Error("The test has gone CAPOOT");
+        //throw new Error("The test has gone CAPOOT");
+    }
+
+    @Given("^a customer named \"([^\"]*)\"$")
+    public void aCustomerNamed(String arg0) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new PendingException();
+    }
+
+    @Given("^I am logged in as Julio$")
+    public void iAmLoggedInAsJulio() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new PendingException();
+    }
+
+    @Given("^I have at least one item in cart$")
+    public void iHaveAtLeastOneItemInCart() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new PendingException();
+    }
+
+    @When("^I try to buy items in my cart$")
+    public void iTryToBuyItemsInMyCart() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new PendingException();
+    }
+
+    @Then("^I should be asked for my payment method$")
+    public void iShouldBeAskedForMyPaymentMethod() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        //throw new PendingException();
     }
 }
