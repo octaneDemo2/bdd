@@ -48,7 +48,7 @@ public class MyStepdefs {
 
     @Given("^something$")
     public void something() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
+        // Write cde here that turns the phrase above into concrete actions
 
     }
 
