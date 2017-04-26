@@ -1,7 +1,7 @@
 #Auto generated Octane revision tag
 @TID1126REV0.1.0
 
-Feature: spell check an email before sending it too
+Feature: spell check an email before sending it too2
 
 	Scenario: before sending an email - spell check should be triggered automatically
 		Given user click the send button
