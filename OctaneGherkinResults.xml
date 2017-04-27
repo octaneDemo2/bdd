@@ -1,32 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<features version="1"><feature name="an example" path="src\test\resources\feature\manualRunner\Gherkin from manual to automation_1185.feature" started="1493272737716" tag="@TID1111REV0.2.0"><file><![CDATA[#Auto generated Octane revision tag
-@TID1111REV0.2.0
-Feature: an example
+<features version="1"><feature name="Retrieving results from Gherkin works fine" path="src\test\resources\feature\manualRunner\Retrieving results from Gherkin works fine-1311.feature" started="1493273571736" tag="@TID1311REV0.2.0"><file><![CDATA[#Auto generated Octane revision tag
+@TID1311REV0.2.0
+Feature: Retrieving results from Gherkin works fine
 
-	Scenario: as an example
-		Given something
-		When do it
-		Then check it again
-]]></file><scenarios><scenario name="as an example"><steps><step duration="486410912" name="Given something" status="passed"/><step duration="50216" name="When do it" status="passed"/><step duration="28844" name="Then check it again" status="passed"/></steps></scenario></scenarios></feature><feature name="Buying items in shopping cart, single user" path="src\test\resources\feature\manualRunner\a feature spec_1197.feature" started="1493272738233" tag="@TID1197REV0.2.0"><file><![CDATA[#Auto generated Octane revision tag
-@TID1197REV0.2.0
-Feature: Buying items in shopping cart, single user
- 
-	Scenario: Julio buys items in his cart
-		Given a customer named "Julio Brown" 
-		Given I am logged in as Julio 
-		Given I have at least one item in cart
-		When I try to buy items in my cart
-		Then I should be asked for my payment method 
- ]]></file><scenarios><scenario name="Julio buys items in his cart"><steps><step duration="4364800" name="Given a customer named &quot;Julio Brown&quot;" status="passed"/><step duration="26816" name="Given I am logged in as Julio" status="passed"/><step duration="32688" name="Given I have at least one item in cart" status="passed"/><step duration="24092" name="When I try to buy items in my cart" status="passed"/><step duration="29540" name="Then I should be asked for my payment method" status="passed"/></steps></scenario></scenarios></feature><feature name="spell check an email before sending it too2" path="src\test\resources\feature\manualRunner\spell check an email before sending it.feature" started="1493272738250" tag="@TID1126REV0.1.0"><file><![CDATA[#Auto generated Octane revision tag
-@TID1126REV0.1.0
 
-Feature: spell check an email before sending it too2
-
-	Scenario: before sending an email - spell check should be triggered automatically
-		Given user click the send button
-		And something new to this part was added
-		When user is in send email dialog
-		When user is in somthing
-		Then spell check should be triggered and prompt user if errors were find
-
-]]></file><scenarios><scenario name="before sending an email - spell check should be triggered automatically"><steps><step duration="62160" name="Given user click the send button" status="passed"/><step duration="33944" name="And something new to this part was added" status="passed"/><step duration="23048" name="When user is in send email dialog" status="passed"/><step duration="27796" name="When user is in somthing" status="passed"/><step duration="22488" name="Then spell check should be triggered and prompt user if errors were find" status="passed"/></steps></scenario></scenarios></feature></features>
+	Scenario: run it and get results and an exception
+		Given i run this
+		When i define one step to throw exception
+		Then an exception is thrown
+]]></file><scenarios><scenario name="run it and get results and an exception"><steps><step duration="190095736" name="Given i run this" status="passed"/><step duration="41836" name="When i define one step to throw exception" status="passed"/><step duration="567880" name="Then an exception is thrown" status="failed"><error_message><![CDATA[java.lang.RuntimeException: I want to see this error from octane log.
+	at feature.manualRunner.MyStepdefs.anExceptionIsThrown(MyStepdefs.java:27)
+	at ✽.Then an exception is thrown(Retrieving results from Gherkin works fine-1311.feature:9)
+]]></error_message></step></steps></scenario></scenarios></feature></features>

@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.491137">
-<testcase classname="an example" name="as an example" time="0.48649">
-<system-out><![CDATA[Given something.............................................................passed
-When do it..................................................................passed
-Then check it again.........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Buying items in shopping cart, single user" name="Julio buys items in his cart" time="0.004478">
-<system-out><![CDATA[Given a customer named "Julio Brown"........................................passed
-Given I am logged in as Julio...............................................passed
-Given I have at least one item in cart......................................passed
-When I try to buy items in my cart..........................................passed
-Then I should be asked for my payment method................................passed
-]]></system-out>
-</testcase>
-<testcase classname="spell check an email before sending it too2" name="before sending an email - spell check should be triggered automatically" time="0.000169">
-<system-out><![CDATA[Given user click the send button............................................passed
-And something new to this part was added....................................passed
-When user is in send email dialog...........................................passed
-When user is in somthing....................................................passed
-Then spell check should be triggered and prompt user if errors were find....passed
-]]></system-out>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.190705">
+<testcase classname="Retrieving results from Gherkin works fine" name="run it and get results and an exception" time="0.190705">
+<failure message="java.lang.RuntimeException: I want to see this error from octane log.&#13;&#10;&#9;at feature.manualRunner.MyStepdefs.anExceptionIsThrown(MyStepdefs.java:27)&#13;&#10;&#9;at ✽.Then an exception is thrown(Retrieving results from Gherkin works fine-1311.feature:9)&#13;&#10;"><![CDATA[Given i run this............................................................passed
+When i define one step to throw exception...................................passed
+Then an exception is thrown.................................................failed
+
+StackTrace:
+java.lang.RuntimeException: I want to see this error from octane log.
+	at feature.manualRunner.MyStepdefs.anExceptionIsThrown(MyStepdefs.java:27)
+	at ✽.Then an exception is thrown(Retrieving results from Gherkin works fine-1311.feature:9)
+]]></failure>
 </testcase>
 </testsuite>
