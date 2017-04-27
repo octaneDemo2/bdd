@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<features version="1"><feature name="spell check an email before sending it" path="src\test\resources\feature\manualRunner\spell check an email before sending it.feature" started="1486312363918" tag="@TID1278REV0.1.0"><file><![CDATA[#Auto generated Octane revision tag
-@TID1278REV0.1.0
+<features version="1"><feature name="an example" path="src\test\resources\feature\manualRunner\Gherkin from manual to automation_1185.feature" started="1493272737716" tag="@TID1111REV0.2.0"><file><![CDATA[#Auto generated Octane revision tag
+@TID1111REV0.2.0
+Feature: an example
 
-Feature: spell check an email before sending it
+	Scenario: as an example
+		Given something
+		When do it
+		Then check it again
+]]></file><scenarios><scenario name="as an example"><steps><step duration="486410912" name="Given something" status="passed"/><step duration="50216" name="When do it" status="passed"/><step duration="28844" name="Then check it again" status="passed"/></steps></scenario></scenarios></feature><feature name="Buying items in shopping cart, single user" path="src\test\resources\feature\manualRunner\a feature spec_1197.feature" started="1493272738233" tag="@TID1197REV0.2.0"><file><![CDATA[#Auto generated Octane revision tag
+@TID1197REV0.2.0
+Feature: Buying items in shopping cart, single user
+ 
+	Scenario: Julio buys items in his cart
+		Given a customer named "Julio Brown" 
+		Given I am logged in as Julio 
+		Given I have at least one item in cart
+		When I try to buy items in my cart
+		Then I should be asked for my payment method 
+ ]]></file><scenarios><scenario name="Julio buys items in his cart"><steps><step duration="4364800" name="Given a customer named &quot;Julio Brown&quot;" status="passed"/><step duration="26816" name="Given I am logged in as Julio" status="passed"/><step duration="32688" name="Given I have at least one item in cart" status="passed"/><step duration="24092" name="When I try to buy items in my cart" status="passed"/><step duration="29540" name="Then I should be asked for my payment method" status="passed"/></steps></scenario></scenarios></feature><feature name="spell check an email before sending it too2" path="src\test\resources\feature\manualRunner\spell check an email before sending it.feature" started="1493272738250" tag="@TID1126REV0.1.0"><file><![CDATA[#Auto generated Octane revision tag
+@TID1126REV0.1.0
+
+Feature: spell check an email before sending it too2
 
 	Scenario: before sending an email - spell check should be triggered automatically
 		Given user click the send button
-		And something new this part added
+		And something new to this part was added
 		When user is in send email dialog
-		Then spell check should be triggered and prompt user if errors were found
+		When user is in somthing
+		Then spell check should be triggered and prompt user if errors were find
 
-]]></file><scenarios><scenario name="before sending an email - spell check should be triggered automatically"><steps><step duration="143730140" name="Given user click the send button" status="passed"/><step duration="23886" name="And something new this part added" status="passed"/><step duration="20602" name="When user is in send email dialog" status="passed"/><step duration="23748" name="Then spell check should be triggered and prompt user if errors were found" status="passed"/></steps></scenario></scenarios></feature></features>
+]]></file><scenarios><scenario name="before sending an email - spell check should be triggered automatically"><steps><step duration="62160" name="Given user click the send button" status="passed"/><step duration="33944" name="And something new to this part was added" status="passed"/><step duration="23048" name="When user is in send email dialog" status="passed"/><step duration="27796" name="When user is in somthing" status="passed"/><step duration="22488" name="Then spell check should be triggered and prompt user if errors were find" status="passed"/></steps></scenario></scenarios></feature></features>

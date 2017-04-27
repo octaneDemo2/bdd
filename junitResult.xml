@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.143798">
-<testcase classname="spell check an email before sending it" name="before sending an email - spell check should be triggered automatically" time="0.143798">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.491137">
+<testcase classname="an example" name="as an example" time="0.48649">
+<system-out><![CDATA[Given something.............................................................passed
+When do it..................................................................passed
+Then check it again.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Buying items in shopping cart, single user" name="Julio buys items in his cart" time="0.004478">
+<system-out><![CDATA[Given a customer named "Julio Brown"........................................passed
+Given I am logged in as Julio...............................................passed
+Given I have at least one item in cart......................................passed
+When I try to buy items in my cart..........................................passed
+Then I should be asked for my payment method................................passed
+]]></system-out>
+</testcase>
+<testcase classname="spell check an email before sending it too2" name="before sending an email - spell check should be triggered automatically" time="0.000169">
 <system-out><![CDATA[Given user click the send button............................................passed
-And something new this part added...........................................passed
+And something new to this part was added....................................passed
 When user is in send email dialog...........................................passed
-Then spell check should be triggered and prompt user if errors were found...passed
+When user is in somthing....................................................passed
+Then spell check should be triggered and prompt user if errors were find....passed
 ]]></system-out>
 </testcase>
 </testsuite>

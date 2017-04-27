@@ -31,6 +31,7 @@ public class MyStepdefs {
     @Then("^spell check should be triggered and prompt user if errors were find$")
     public void spellCheckShouldBeTriggeredAndPromptUserIfErrorsWereFound() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
+        throw new Exception("this step is no good");
 
     }
 
