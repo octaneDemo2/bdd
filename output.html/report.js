@@ -38,29 +38,28 @@ formatter.step({
 });
 formatter.step({
   "line": 9,
-  "name": "an exception is thrown",
+  "name": "an exception will not be thrown",
   "keyword": "Then "
 });
 formatter.match({
   "location": "MyStepdefs.iRunThis()"
 });
 formatter.result({
-  "duration": 190095736,
+  "duration": 213748116,
   "status": "passed"
 });
 formatter.match({
   "location": "MyStepdefs.iDefineOneStepToThrowException()"
 });
 formatter.result({
-  "duration": 41836,
+  "duration": 31776,
   "status": "passed"
 });
 formatter.match({
-  "location": "MyStepdefs.anExceptionIsThrown()"
+  "location": "MyStepdefs.anExceptionWillNotBeThrown()"
 });
 formatter.result({
-  "duration": 567880,
-  "error_message": "java.lang.RuntimeException: I want to see this error from octane log.\r\n\tat feature.manualRunner.MyStepdefs.anExceptionIsThrown(MyStepdefs.java:27)\r\n\tat ✽.Then an exception is thrown(Retrieving results from Gherkin works fine-1311.feature:9)\r\n",
-  "status": "failed"
+  "duration": 28776,
+  "status": "passed"
 });
 });

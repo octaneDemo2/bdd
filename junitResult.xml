@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.190705">
-<testcase classname="Retrieving results from Gherkin works fine" name="run it and get results and an exception" time="0.190705">
-<failure message="java.lang.RuntimeException: I want to see this error from octane log.&#13;&#10;&#9;at feature.manualRunner.MyStepdefs.anExceptionIsThrown(MyStepdefs.java:27)&#13;&#10;&#9;at ✽.Then an exception is thrown(Retrieving results from Gherkin works fine-1311.feature:9)&#13;&#10;"><![CDATA[Given i run this............................................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.213809">
+<testcase classname="Retrieving results from Gherkin works fine" name="run it and get results and an exception" time="0.213809">
+<system-out><![CDATA[Given i run this............................................................passed
 When i define one step to throw exception...................................passed
-Then an exception is thrown.................................................failed
-
-StackTrace:
-java.lang.RuntimeException: I want to see this error from octane log.
-	at feature.manualRunner.MyStepdefs.anExceptionIsThrown(MyStepdefs.java:27)
-	at ✽.Then an exception is thrown(Retrieving results from Gherkin works fine-1311.feature:9)
-]]></failure>
+Then an exception will not be thrown........................................passed
+]]></system-out>
 </testcase>
 </testsuite>

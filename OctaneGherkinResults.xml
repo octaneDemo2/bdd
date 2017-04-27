@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<features version="1"><feature name="Retrieving results from Gherkin works fine" path="src\test\resources\feature\manualRunner\Retrieving results from Gherkin works fine-1311.feature" started="1493273571736" tag="@TID1311REV0.2.0"><file><![CDATA[#Auto generated Octane revision tag
+<features version="1"><feature name="Retrieving results from Gherkin works fine" path="src\test\resources\feature\manualRunner\Retrieving results from Gherkin works fine-1311.feature" started="1493274213176" tag="@TID1311REV0.2.0"><file><![CDATA[#Auto generated Octane revision tag
 @TID1311REV0.2.0
 Feature: Retrieving results from Gherkin works fine
 
@@ -7,8 +7,5 @@ Feature: Retrieving results from Gherkin works fine
 	Scenario: run it and get results and an exception
 		Given i run this
 		When i define one step to throw exception
-		Then an exception is thrown
-]]></file><scenarios><scenario name="run it and get results and an exception"><steps><step duration="190095736" name="Given i run this" status="passed"/><step duration="41836" name="When i define one step to throw exception" status="passed"/><step duration="567880" name="Then an exception is thrown" status="failed"><error_message><![CDATA[java.lang.RuntimeException: I want to see this error from octane log.
-	at feature.manualRunner.MyStepdefs.anExceptionIsThrown(MyStepdefs.java:27)
-	at ✽.Then an exception is thrown(Retrieving results from Gherkin works fine-1311.feature:9)
-]]></error_message></step></steps></scenario></scenarios></feature></features>
+		Then an exception will not be thrown
+]]></file><scenarios><scenario name="run it and get results and an exception"><steps><step duration="213748116" name="Given i run this" status="passed"/><step duration="31776" name="When i define one step to throw exception" status="passed"/><step duration="28776" name="Then an exception will not be thrown" status="passed"/></steps></scenario></scenarios></feature></features>
