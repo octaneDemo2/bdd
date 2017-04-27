@@ -21,9 +21,9 @@ public class MyStepdefs {
 
     }
 
-    @Then("^an exception is thrown$")
-    public void anExceptionIsThrown() throws Throwable {
+    @Then("^an exception will not be thrown$")
+    public void anExceptionWillNotBeThrown() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        throw new RuntimeException("I want to see this error from octane log.");
+        //throw new RuntimeException("I want to see this error from octane log.");
     }
 }
