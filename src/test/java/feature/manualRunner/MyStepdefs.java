@@ -26,4 +26,22 @@ public class MyStepdefs {
         // Write code here that turns the phrase above into concrete actions
         //throw new RuntimeException("I want to see this error from octane log.");
     }
+
+    @Given("^the system is up$")
+    public void theSystemIsUp() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+
+    }
+
+    @When("^I click username and password$")
+    public void iClickUsernameAndPassword() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+
+    }
+
+    @Then("^I login into the system$")
+    public void iLoginIntoTheSystem() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new Exception("I want to see that exception from Octane logs");
+    }
 }
