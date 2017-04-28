@@ -39,7 +39,7 @@ public class MyStepdefs {
 
     }
 
-    @Then("^I login into the system$")
+    @Then("^I do not login into the system$")
     public void iLoginIntoTheSystem() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         throw new Exception("I want to see that exception from Octane logs");
